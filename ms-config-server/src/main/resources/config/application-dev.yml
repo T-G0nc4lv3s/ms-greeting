@@ -1,0 +1,10 @@
+server:
+  port: 8080
+---
+spring:  application:    name: ms-greeting
+---
+ms-greeting:
+  greeting: "Helo"
+  default-value: "World"
+---
+management:  endpoints:    web:      exposure:        include:        - "*"
