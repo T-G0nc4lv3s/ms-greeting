@@ -1,0 +1,2 @@
+# ms-greeting
+Greeting service
